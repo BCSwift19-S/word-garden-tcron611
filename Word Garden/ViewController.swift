@@ -131,7 +131,7 @@ class ViewController: UIViewController {
         } else {
             //finished guessing all of the words in the array
             userGuessLabel.text = "🤓"
-            userGuessLabel.font = userGuessLabel.font.withSize(40)
+            userGuessLabel.font = userGuessLabel.font.withSize(40) //change text size
             wordToGuess = ""
             playAgainButton.isHidden = true
             guessedLetterField.isHidden = true
